@@ -33,7 +33,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I had some issues connecting my app to Parse, but those issues are resolved. Instagram colors and assets were used to make the app look like the real Instagram app, including the app icon.
+The readme mentions a bottom navigation view for the first stretch story, but the current assignment page mentions a styled launch screen instead (which is what I have implemented). I had some issues connecting my app to Parse, but those issues are resolved. Instagram colors and assets were used to make the app look like the real Instagram app, including the app icon.
 
 ## Open-source libraries used
 
