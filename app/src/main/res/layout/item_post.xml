@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="3dp" >
+
+    <ImageView
+        android:id="@+id/ivProfilePhoto"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="3dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/ivProfilePhoto"
+        android:layout_marginLeft="4dp"
+        android:textColor="#000000"
+        tools:text="david" />
+
+    <ImageView
+        android:id="@+id/ivMore"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        app:srcCompat="@drawable/media_option_button" />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/tvUsername" />
+
+    <ImageView
+        android:id="@+id/ivLike"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/ivImage"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"
+        app:srcCompat="@drawable/ufi_heart" />
+
+    <ImageView
+        android:id="@+id/ivComment"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/ivImage"
+        android:layout_toRightOf="@id/ivLike"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/ufi_comment" />
+
+    <ImageView
+        android:id="@+id/ivSend"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/ivImage"
+        android:layout_toRightOf="@id/ivComment"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/ufi_new_direct" />
+
+    <ImageView
+        android:id="@+id/ivSave"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/ivImage"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="5dp"
+        app:srcCompat="@drawable/ufi_save" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:layout_below="@id/ivLike"
+        android:layout_marginTop="6dp"
+        tools:text="This is a description." />
+
+    <TextView
+        android:id="@+id/tvCreatedAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="10sp"
+        android:layout_below="@id/tvDescription"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="30dp"
+        tools:text="03-06-2022 at 00:52" />
+</RelativeLayout>

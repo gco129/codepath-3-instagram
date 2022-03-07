@@ -1,56 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/etDescription"
+    <FrameLayout
+        android:id="@+id/flContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigation" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter description..."
-        android:inputType="textPersonName" />
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_bottom_navigation" />
 
-    <Button
-        android:id="@+id/btnCaptureImage"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Take Picture"
-        android:layout_marginBottom="10dp"
-        android:backgroundTint="#0095F6" />
-
-    <ImageView
-        android:id="@+id/ivPostImage"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <Button
-        android:id="@+id/btnSubmit"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Submit"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="30dp"
-        android:backgroundTint="#0095F6"/>
-
-    <ProgressBar
-        android:id="@+id/pbLoading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:visibility="invisible" />
-
-    <Button
-        android:id="@+id/btnLogout"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        android:text="Log Out"
-        android:backgroundTint="#808080" />
-</LinearLayout>
+</RelativeLayout>

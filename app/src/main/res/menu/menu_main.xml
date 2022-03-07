@@ -3,20 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/camera"
-        android:icon="@drawable/instagram_new_post_outline_24"
-        android:title="Camera"
-        app:showAsAction="always" />
-
-    <item
         android:id="@+id/activity"
-        android:icon="@drawable/ufi_heart"
+        android:icon="@drawable/ufi_heart_active"
         android:title="Activity"
         app:showAsAction="always" />
 
     <item
         android:id="@+id/message"
-        android:icon="@drawable/ufi_new_direct"
+        android:icon="@drawable/nav_inbox_paper_plane"
         android:title="Message"
         app:showAsAction="always" />
 

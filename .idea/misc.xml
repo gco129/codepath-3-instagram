@@ -5,9 +5,18 @@
       <map>
         <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/edit_text_border.xml" value="0.2703125" />
         <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/ic_nav_logo_whiteout.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/selector_bottomnav_bg.xml" value="0.2703125" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/selector_compose.xml" value="0.1390625" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/selector_nav.xml" value="0.2703125" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/drawable/selector_profile.xml" value="0.1390625" />
         <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/layout/fragment_compose.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/layout/fragment_posts.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/layout/fragment_profile.xml" value="0.176" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/layout/item_post.xml" value="0.4" />
         <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/layout/toolbar.xml" value="0.1265625" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.264" />
         <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/menu/menu_main.xml" value="0.264" />
         <entry key="..\:/Users/Owner/AndroidStudioProjects/Parstagram/app/src/main/res/xml/fileprovider.xml" value="0.13020833333333334" />
       </map>
